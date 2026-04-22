@@ -1,0 +1,8 @@
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "PlayerData", menuName = "Game/Player Data")]
+public class PlayerData : ScriptableObject
+{
+    public int maxHP;
+    public float moveSpeed;
+}
